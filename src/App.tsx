@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 function App() {
-  const[num1,setNum1] = userState<number>(0);
-  const[num2,setNum2] = userState<number>(0);
-  const[operator,setOperator] = userState<string>('+');
-  const[result,setResult] = userState<number | null>(null);
+  const[num1,setNum1] = useState<number>(0);
+  const[num2,setNum2] = useState<number>(0);
+  const[operator,setOperator] = useState<string>('+');
+  const[result,setResult] = useState<number | null>(null);
 
   const calculate = () => {
     let res : number;
