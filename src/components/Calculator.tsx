@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function App() {
+function Calculator() {
   const[num1,setNum1] = useState<number>(0);
   const[num2,setNum2] = useState<number>(0);
   const[operator,setOperator] = useState<string>('+');
@@ -55,4 +55,4 @@ function App() {
 
 }
 
-export default App;
+export default Calculator;
